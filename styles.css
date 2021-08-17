@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #03045e;
+}
+
+body {
+    background-color: #caf0f8;
+}
+
+h1,
+h2 {
+    font-family: 'Orelega One', cursive;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b4d8;
+    padding: 1rem;
+}
+
+.section {
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 24px;
+    background-color: #90e0ef;
+    max-width: 500px;
+}
+
+.row {
+    display: flex;
+    margin: 12px 24px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.row div {
+    flex: 1;
+}
+
+label {
+    flex: 1;
+    margin-right: 12px;
+    max-width: 120px;
+    min-width: 80px;
+}
+
+input {
+    flex: 1;
+    width: 100%;
+    max-width: 300px;
+    justify-self: flex-end;
+    font-size: 14px;
+    height: 24px;
+    background-color: #caf0f8;
+    outline: none;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #03045e;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #caf0f8;
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.result .result-title {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.result {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 590px) {
+    .result {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.mb {
+    margin-bottom: 2rem;
+}
